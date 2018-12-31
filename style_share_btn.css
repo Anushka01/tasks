@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+	text-align:center;
+	}
+.share-btn{
+	margin-left:45%;
+	margin-top:100px;
+background-position:center;
+height:50px;
+width:150px;
+box-shadow: 0 0 10 0 rgba(150,150,150,0.5);
+background-color:#008080;
+	}	
+
+.share-btn:hover{
+	background-color: #0000A0;
+	cursor:pointer;
+
+}
+.txt{
+	padding:12px;
+	text-decoration:underline;
+	font-size:20px;}	

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#ffbba8;}
+.wrapper{
+	position:absolute;
+	height:420px;
+	width: 500px;
+	background:#fff url("bg1.jpg");
+	 background-position: center;
+    box-shadow: 0 0 10px rgba(150,150,150,0.5);
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.ribbion{
+	position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #800000;
+    top: 10px;
+   left: -10px;
+}
+.ribbion:before{
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	border-left: 5px solid transparent;
+    border-right:  5px solid #800000;
+    border-top:   5px solid #800000;
+    border-bottom:  5px solid transparent; 
+}
+.ribbion:after{
+	content: "";
+	position: absolute;
+	top: -1px;
+	right: 0;
+    border-left: 25px solid transparent;
+    border-right:  25px solid #fff;
+    border-top:   25px solid transparent;
+    border-bottom:  25px solid transparent;
+
+}
+.decor{
+	font-family: "Times New Roman", Times, serif;
+	font-size:25px;
+	
+	color:#fff;
+	margin:12px;
+          
+}
